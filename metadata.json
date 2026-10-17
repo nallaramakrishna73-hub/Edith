@@ -1,0 +1,7 @@
+{
+  "name": "EDITH AI OS",
+  "description": "Enhanced Digital Intelligence & Tactical Helper - Futuristic AI assistant and operating environment foundation with real AI intelligence and persistent chat.",
+  "requestFramePermissions": ["MICROPHONE"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

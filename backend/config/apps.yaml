@@ -1,0 +1,46 @@
+# EDITH AI OS - Application Allowlist Configuration (Kali Linux / Linux Desktop)
+# Maps registered tool application IDs to safe system binary paths.
+# The AI NEVER receives a raw shell; it can only request registered identifiers.
+
+applications:
+  - id: firefox
+    name: "Firefox Web Browser"
+    executable: "/usr/bin/firefox"
+    category: "web"
+    risk_level: "LOW_RISK"
+
+  - id: code
+    name: "Visual Studio Code"
+    executable: "/usr/bin/code"
+    category: "development"
+    risk_level: "LOW_RISK"
+
+  - id: terminal
+    name: "QTerminal / Bash"
+    executable: "/usr/bin/qterminal"
+    category: "system"
+    risk_level: "LOW_RISK"
+
+  - id: file_manager
+    name: "Thunar File Manager"
+    executable: "/usr/bin/thunar"
+    category: "files"
+    risk_level: "LOW_RISK"
+
+  - id: wireshark
+    name: "Wireshark Network Analyzer"
+    executable: "/usr/bin/wireshark"
+    category: "security"
+    risk_level: "LOW_RISK"
+
+  - id: burpsuite
+    name: "Burp Suite Community Edition"
+    executable: "/usr/bin/burpsuite"
+    category: "security"
+    risk_level: "LOW_RISK"
+
+  - id: nmap
+    name: "Nmap Network Scanner"
+    executable: "/usr/bin/nmap"
+    category: "security"
+    risk_level: "REQUIRES_CONFIRMATION"
